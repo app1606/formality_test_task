@@ -34,6 +34,6 @@ Libraries and frameworks used:
   - F1-score
   - Precision / Recall
 
-These metrics are widely used in this field. Accuracy shows the part of correctly classified test samples. Precision for a class displays which part of positively-classified samples are actuall positive. Recall tells us which part of the positive samples were classified correctly. Metrics were calculated using `scikit-learn` and displayed with `classification_report` method.
+These metrics are widely used in this field. Accuracy shows the part of correctly classified test samples. Precision for a class displays which part of positively-classified samples are actuall positive. Recall tells us which part of the positive samples were classified correctly. F1 is used as a balanced metric, the harmonic mean of precision and recall, that is sensitive to the inbalance between classes. Metrics were calculated using `scikit-learn` and displayed with `classification_report` method.
 
 
