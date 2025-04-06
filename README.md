@@ -28,7 +28,7 @@ Libraries and frameworks used:
   - `scikit-learn` — metrics computation
   - `matplotlib` — visualization
   - `transformers` — pre-trained LLMs
-- ** Models**:
+- **Models**:
   - `deberta-large-formality-ranker` — pre-trained, from [HuggingFace](https://huggingface.co/s-nlp/deberta-large-formality-ranker)
   - `xlmr_formality_classifier ` — pre-trained, from [HuggingFace](https://huggingface.co/s-nlp/xlmr_formality_classifier)
   - `CatboostClassifier` — fine-tuned in this work, from [CatBoost](https://catboost.ai/docs/en/concepts/python-reference_catboostclassifier)
