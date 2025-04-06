@@ -45,3 +45,11 @@ These metrics are widely used in this field. Accuracy shows the part of correctl
 ## Conclusions
 
 I managed to show that fine-tuned DeBERTa model outperforms fine-tuned XLMR-Roberta model on all the selected metrics, although both of them lose to CatBoostClassifier. I believe that it happened because I have used samples from my own dataset to fine-tune Catboost model and then ran evaluation over the test part of this dataset. Since the model was trained on the data from the same source, it had advantage over others. 
+
+## Results 
+
+| Model    | Formal Precision | Formal Recall | Formal F1 |  Informal Precision | Informal Recall | Informal F1 |Accuracy |
+| -------- | ---------|-| -| -|-| -| -|
+| DeBERTa  | 0.8    | 0.77| 0.78| 0.76|0.79| 0.78| 0.78|
+| XLMR-Roberta | 0.76   | 0.5| 0.6| 0.61|0.83| 0.7| 0.66|
+| Catboost    | 0.82    | 0.83| 0.83| 0.83|0.82| 0.83| 0.83|
